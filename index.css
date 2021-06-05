@@ -1,0 +1,196 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+header {
+  width: 100%;
+  padding: 0em;
+}
+
+nav {
+  width: 100%;
+  height: 3em;
+  padding: 0;
+  background-color: #feeafa;
+  position: fixed;
+  
+  
+}
+
+.lista {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 0;
+  
+  font-family: "Nosifer", cursive;
+  color: #4d60ba;
+  width: 100%;
+}
+
+li {
+  margin-right: 3em;
+  list-style: none;  
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+
+.titulo {
+  display: flex;
+  justify-content: center;
+  /* margin-left: 1em; */
+  font-family: "Nosifer", cursive;
+  font-size: 6em;
+  background-image: radial-gradient(#ff006e, #8338ec, #3a86ff, #ef233c);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  background-size: 400%;
+  background-position: left;
+  animation: rotacion 5s infinite alternate;
+}
+
+@keyframes rotacion { 
+    0% {background-position: left;}
+    100% {background-position: right;}
+}
+
+.portada {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(https://wallpaperaccess.com/full/1374050.jpg);
+  object-fit: cover;
+  object-position:center ;
+  width: 100%;
+  height: 58em;
+}
+
+.presentacion {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  height: 60em;
+  background-color: black;
+  color: violet;
+}
+h2 {
+  font-family: "Nosifer", cursive;
+  display: flex;
+  justify-content: center;
+}
+
+h3 {
+  display: flex;
+  justify-content: center;
+  font-family: "Nosifer", cursive;
+}
+
+.who {
+  border: 6px dotted #9117a3;
+  padding: 0.3em;
+  box-shadow: -2px -1px 50px -3px rgba(164, 43, 192, 0.75);
+  -webkit-box-shadow: -2px -1px 50px -3px rgba(164, 43, 192, 0.75);
+  -moz-box-shadow: -2px -1px 50px -3px rgba(164, 43, 192, 0.75);
+  font-family: "Handlee", cursive;
+}
+
+img {
+  width: 25em;
+  height: 15em;
+}
+
+p {
+  display: flexbox;
+  width: 25em;
+  line-height: 10mm;
+  text-align: justify;
+  letter-spacing: 0.1em;
+}
+
+.bandas {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  background-color: violet;
+  color: #4d60ba;
+  flex-wrap: wrap;
+}
+
+.ArtistasInvitados {
+  display: flex;
+  justify-content: space-around;
+  background-color: #4d60ba;
+  color: violet;
+  flex-wrap: wrap;
+}
+
+.Contacto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2em;
+  background-color: #7400b8;
+  color: violet;
+  border: 5px dotted #f41def; 
+}
+
+@keyframes rotacion { 
+    0% {background-position: left;}
+    100% {background-position: right;}
+}
+
+
+
+.card-contacto {
+  font-size: 25px;
+}
+
+.nya{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  width: 40%;
+}
+
+input{
+  margin-left: 2em;
+}
+
+.nombre {
+  color: violet;
+  margin-bottom: 1em;
+}
+
+.apellido {
+  color: violet;
+}
+
+button {
+  margin-top: 3em;
+  border: 5px dotted #f41def;
+  background-color: transparent;
+  padding: 1em;
+  color: violet;
+}
+
+footer {
+  padding: 2em;
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  color: violet;
+  font-size: 5em;
+}
